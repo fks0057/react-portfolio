@@ -15,7 +15,7 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  background-color: #99ff99;
+  background-color: #bbffbb;
 }
 
 body {
@@ -44,7 +44,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #99ff99;
+  background-color: #bbffbb;
   cursor: pointer;
   transition: border-color 0.25s;
 }
