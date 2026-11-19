@@ -4,7 +4,7 @@ import './App.css'
 function App() {
   return (
     <main>
-      <h1>Yu-Yu Chiang</h1>
+      <h1>Yu-Yu Chiang ver2</h1>
       <p>Computer Science Student @ OSU</p>
     
       <img
