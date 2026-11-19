@@ -1,4 +1,4 @@
-import HeadImg from './assets/capybara.jpg'
+import HeadImg from "./assets/capybara.JPG"
 import './App.css'
 
 function App() {
