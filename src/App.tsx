@@ -1,18 +1,21 @@
-import HeadImg from "./assets/capybara.JPG"
-import './App.css'
+
+import { HashRouter, Routes, Route } from "react-router";
+import Home from "./pages/Home";
+import WeatherML from "./pages/WeatherML";
+import "./App.css";
 
 function App() {
   return (
-    <main>
-      <h1>Yu-Yu Chiang</h1>
-      <p>Computer Science Student @ OSU</p>
-    
-      <img
-        src={HeadImg}
-        alt="Capybara chilling"
-        width={300}
-      />
-    </main>
-  )
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route
+          path="/projects/weather-ml"
+          element={<WeatherML />}
+        />
+      </Routes>
+    </HashRouter>
+  );
 }
-export default App
+
+export default App;
